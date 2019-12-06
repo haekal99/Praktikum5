@@ -91,3 +91,13 @@ Dictionary Input Nilai Mahasiswa
 **FLOWCHART**
 
 ![FLOWCHART 5](https://user-images.githubusercontent.com/56957271/70290757-7e3f3580-180b-11ea-8c84-6a40d38c8963.JPG)
+
+
+**Hasil dari input tersebut:**
+
+![output 1](https://user-images.githubusercontent.com/56957271/70335387-ca28c380-1879-11ea-8b05-701a553e3106.JPG)
+
+![output 2](https://user-images.githubusercontent.com/56957271/70335434-dc0a6680-1879-11ea-965b-bc023550061f.JPG)
+
+
+**SELESAI**
