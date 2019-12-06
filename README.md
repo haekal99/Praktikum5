@@ -55,4 +55,39 @@ Dictionary Input Nilai Mahasiswa
             print("Data {0} tidak ada".format(nama))
 ```
 
-5. 
+5. Buta perintah 'elif' untuk mencari salah satu data nilai
+```python
+
+# Cari
+    elif perintah.lower() == 'c':
+        print("Mencari daftar nilai: ")
+        print("=================================================")
+        nama = input("Masukan nama untuk mencari daftar nilai : ")
+        if nama in daftar.keys():
+            print("Nama {0}, dengan NIM : {1}\n"
+                  "Nilai Tugas: {2}, UTS: {3}, dan UAS: {4}\n"
+                  "dan nilai akhir {5}".format(nama, daftar[nama][1],
+                                               daftar[nama][2], daftar[nama][3],
+                                               daftar[nama][4], daftar[nama][5]))
+        else:
+            print("'{}' tidak ditemukan.".format(nama))
+  ```
+            
+6. Buat perintah "elif" untuk menghapus salah satu data nilai
+```python
+# Hapus
+    elif perintah.lower() == 'h':
+        nama = input("Masukan nama untuk menghapus data : ")
+        if nama in daftar.keys():
+            del daftar[nama]
+            print("Data '{}' dihapus.".format(nama))
+        else:
+            print("'{}' tidak ditemukan.".format(nama))
+
+    else:
+        print("Silahkan masukan perintah terlebih dahulu.")
+```
+
+**FLOWCHART**
+
+![FLOWCHART 5](https://user-images.githubusercontent.com/56957271/70290757-7e3f3580-180b-11ea-8c84-6a40d38c8963.JPG)
